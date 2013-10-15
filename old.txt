@@ -1,0 +1,25 @@
+
+if (stock.get("year") == null) stock.put("year", new ArrayList<String>());
+			if (stock.get("month") == null) stock.put("month", new ArrayList<String>());
+			if (stock.get("date") == null) stock.put("date", new ArrayList<String>());
+			if (stock.get("volume") == null) stock.put("volume", new ArrayList<String>());
+			if (stock.get("open") == null) stock.put("open", new ArrayList<String>());
+			if (stock.get("high") == null) stock.put("high", new ArrayList<String>());
+			if (stock.get("low") == null) stock.put("low", new ArrayList<String>());
+			if (stock.get("close") == null) stock.put("close", new ArrayList<String>());
+			stock.get("year").add(year);
+			stock.get("month").add(month);
+			stock.get("date").add(date);
+			stock.get("volume").add(split[4]);
+			stock.get("open").add(split[5]);
+			stock.get("high").add(split[6]);
+			stock.get("low").add(split[7]);
+			stock.get("close").add(split[8]);
+System.out.println(map.get("1101").get("year").get(0));
+System.out.println(map.get("1101").get("month").get(0));
+System.out.println(map.get("1101").get("date").get(0));
+System.out.println(map.get("1101").get("volume").get(0));
+System.out.println(map.get("1101").get("open").get(0));
+System.out.println(map.get("1101").get("high").get(0));
+System.out.println(map.get("1101").get("low").get(0));
+System.out.println(map.get("1101").get("close").get(0));
